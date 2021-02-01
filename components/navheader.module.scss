@@ -2,15 +2,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: .5rem;
+    margin-bottom: 1rem;
 }
 
 .icon {
-    font-size: 3rem;
+    font-size: 4rem;
+    margin-left: 1rem;
 }
 
 .hamburger {
-    height: 3px;
-    width: 30px;
+    height: .2rem;
+    width: 3rem;
     background-color: black;
 }
 
@@ -19,4 +23,5 @@
     flex-direction: column;
     justify-content: space-between;
     height: 30px;
+    margin-right: 1rem;
 }
