@@ -4,7 +4,7 @@ import styles from './navheader.module.scss'
 export default function NavHeader() {
     return (
         <div className={styles.container}>
-            <Link href="" >
+            <Link href="/" >
                 {/* <a className={styles.icon}>&#128012;</a> */}
                 <a className={styles.icon}>&#129437;</a>
             </Link>
