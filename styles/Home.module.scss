@@ -1,22 +1,41 @@
+.grid {
+  grid-column: 2/3;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: min-content minmax(min-content, 40vw);
+  column-gap: 2.5rem;
+  row-gap: 2rem;
+  padding-top: 3rem;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
 .textContainer{
-  text-align: center;
+  text-align: left;
+  line-height: 3.5rem;
+
 }
 
 .linkIcon {
   width: 3.3rem;
   height: 3.3rem;
   fill: #0070f3;
-  margin-right: 2.5rem;
 }
 
 .linkContainer{
   display: flex;
-  justify-content: center;
-  margin-top: 2rem;
+  justify-content: space-around;
+  align-items: center;
+  padding: .4rem .4rem;
 }
 
 .photo{
   width: 20rem;
-  height: auto;
-  // border-radius: 50%;
+  height: 20rem;
+  border-radius: 50%;
+  background-image: url(/nick-photo.jpg);
+  background-size: cover;
+  background-position: center;
 }

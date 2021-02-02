@@ -7,9 +7,8 @@ $background-color: #f4f1ee;
 }
 
 .container{
-    max-width: 60vw;
-    margin: 0 auto;
-    // min-height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr [content-start] minmax(min-content, 75vw) [content-start] 1fr;
 }
 
 .footer {
