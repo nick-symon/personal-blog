@@ -9,6 +9,8 @@ export default function Layout({children}) {
       <Head>
         <title>Nick Symon</title>
         <link rel="icon" href="/favicon.svg"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet"></link>
       </Head>
 
       <NavHeader />
