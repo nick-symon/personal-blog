@@ -18,7 +18,7 @@ export default function Layout({children}) {
       <main className={styles.container}>{children}</main>
 
       <footer className={styles.footer}>
-      Built by Nick Symon with <a href="https://nextjs.org/" target="_blank">NextJS</a>
+      Built by Nick Symon with <a href="https://nextjs.org/" target="_blank">Next.js</a>
       </footer>
     </div>
   )
