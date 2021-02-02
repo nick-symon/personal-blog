@@ -5,7 +5,7 @@ import styles from './layout.module.scss'
 
 export default function Layout({children}) {
   return (
-    <>
+    <div className={styles.wrapper}>
       <Head>
         <title>Nick Symon</title>
         <link rel="icon" href="/favicon.svg"></link>
@@ -18,6 +18,6 @@ export default function Layout({children}) {
       <footer className={styles.footer}>
       Built by Nick Symon with <a href="https://nextjs.org/" target="_blank">NextJS</a>
       </footer>
-    </>
+    </div>
   )
 }

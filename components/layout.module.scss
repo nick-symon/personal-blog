@@ -1,5 +1,22 @@
+$background-color: #f4f1ee;
+
+.wrapper {
+    min-height: 100vh;
+    position: relative;
+    background-color: $background-color;
+}
+
 .container{
     max-width: 60vw;
     margin: 0 auto;
-    min-height: 80vh;
+    // min-height: 80vh;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    padding: .5rem;
+    text-align: center;
+    width: 100%;
+    font-size: 1.3rem;
 }
