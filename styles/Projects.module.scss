@@ -1,3 +1,11 @@
 .mainHeader {
-    margin-bottom: 3rem;
+    margin-bottom: 3.5rem;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    row-gap: 2rem;
+    column-gap: 4rem;
 }

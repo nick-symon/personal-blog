@@ -10,7 +10,8 @@ export default function Home() {
         <div className={styles.textContainer}>
           <img src="/nick-photo.jpg" alt="Hi, I'm Nick!" className={styles.photo}/>
           <h1>Hi, I'm Nick!</h1>
-          <h2>I love working with React, CSS and Python</h2>
+          <h2>I love working with React, CSS and Python.</h2>
+          <h2>I used to be a big 4 CPA.</h2>
           <h2>Please check out my
             <Link href="/projects">
                 <a> Projects</a>
