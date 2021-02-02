@@ -1,27 +1,91 @@
 .container {
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
-    padding-bottom: .5rem;
+    padding: .3rem 2rem;
     margin-bottom: 1rem;
+    height: minmax(min-content, 10vh);
+    z-index: 1000;
+    background-color: white;
 }
 
 .icon {
     font-size: 4rem;
-    margin-left: 1rem;
+    
+    &:hover {
+        text-decoration: none;
+    }
 }
 
-.hamburger {
-    height: .2rem;
-    width: 3rem;
-    background-color: black;
+.button {
+    height: 3rem;
+    position: relative;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2000;
+    padding: .6rem .3rem;
 }
 
-.hamburgerContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 30px;
-    margin-right: 1rem;
+.burger {
+    position: relative;
+    top: -.2rem;
+
+    &,
+    &::before,
+    &::after {
+        height: .3rem;
+        width: 3rem;
+        background-color: black;  
+        display: inline-block;      
+    }
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+    }
+
+    &::before {top: -1rem;}
+    &::after {top: 1rem;}
 }
+
+.linkList {
+    position: absolute;
+    right: 0;
+    top: 6rem;
+    margin-right: 2rem;
+    list-style: none;
+    text-align: right;
+    transition: all .3s;
+    
+    &Hidden{
+        top: -6rem;
+        z-index: -10000;
+        position: absolute;
+    }
+}
+
+.link {
+    position: relative;
+    font-size: 2rem;
+
+    &Item {
+        border-bottom: 1px solid blue;
+        padding: .2rem;
+
+        &:hover {
+            background-color: gray;
+
+            & a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+
+
