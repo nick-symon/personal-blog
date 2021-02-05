@@ -11,7 +11,9 @@ export default function Home() {
           <div className={styles.textContainer}>
             <h1 className={styles.header}>Hi, I'm Nick!</h1>
             <h3 className={styles.subHead}>I used to be a Big-4 CPA, and now I'm looking to enter the field of front-end web development.</h3>
+            <br></br>
             <h3 className={styles.subHead}>I love working with React, CSS and Python.</h3>
+            <br></br>
             <h3>Please check out my{' '} 
               <Link href="/projects">
                   <a>Projects</a>
