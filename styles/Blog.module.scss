@@ -2,4 +2,17 @@
     grid-column: 2/3;
     display: grid;
     justify-content: center;
+    justify-self: center;
+    grid-template-columns: minmax(30rem, 50rem);
+    padding-top: 3rem;
+}
+
+.listItem {
+    list-style: none;
+}
+
+.link {
+    display: inline-block;
+    font-size: 3rem;
+    margin-bottom: .6rem;
 }

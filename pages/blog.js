@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Layout from '../components/Layout'
 import styles from '../styles/Blog.module.scss'
 import utilStyles from '../styles/utils.module.scss'
@@ -19,13 +20,11 @@ export default function BlogIndex({allPostsData}) {
                 <h1 className={utilStyles.mainHeader}>Blog Posts</h1>
                 <ul>
                 {allPostsData.map(({id, title, date}) => (
-                    <li key={id}>
-                        {id}
-                        <br/>
-                        {title}
-                        <br/>
-                        {date}
-                        <br/>
+                    <li className={styles.listItem} key={id}>
+                        <Link href={`blog/${id}`}>
+                            <a className={styles.link}>{title}</a>
+                        </Link>
+                        <p>{date}</p>
                     </li>
                 ))}
                 </ul>
