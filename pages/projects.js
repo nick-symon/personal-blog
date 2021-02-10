@@ -1,11 +1,12 @@
 import Layout from '../components/Layout'
 import styles from '../styles/Projects.module.scss'
+import utilStyles from '../styles/utils.module.scss'
 
 export default function Projects(){
     return(
         <Layout>
         <div className={styles.grid}>
-            <h1 className={styles.mainHeader}>Projects</h1>
+            <h1 className={utilStyles.mainHeader}>Projects</h1>
                 <div className={styles.subGrid}>
                 <a href="https://www.podpeople.app/" title="Pod People" target="_blank">
                     <h2>Pod People</h2>
