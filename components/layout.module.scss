@@ -4,19 +4,25 @@ $background-color: #292a2d;
     min-height: 100vh;
     position: relative;
     background-color: $background-color;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    grid-column: 1fr;
+    align-items: flex-start;
 }
 
 .container{
+    grid-row: 2/3;
+    grid-column: 1/2;
     display: grid;
     grid-template-columns: 1fr [content-start] minmax(min-content, 75vw) [content-start] 1fr;
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
+    grid-row: 3/4;
+    grid-column: 1/2;
     padding: .5rem;
+    padding-top: 2rem;
     text-align: center;
     width: 100%;
     font-size: 1.3rem;
-    margin-top: 2rem;
 }

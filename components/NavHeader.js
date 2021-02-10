@@ -8,25 +8,27 @@ export default function NavHeader() {
 
     return (
         <>
-        <div className={styles.container}>
-            <Link href="/" >
-                <a className={styles.icon}>&#129437;</a>
-            </Link>
+        <div className={styles.grid}>
+            <div className={styles.container}>
+                <Link href="/" >
+                    <a className={styles.icon}>&#129437;</a>
+                </Link>
 
-            <button className={styles.button} onClick={() => setActive(!active)}>
-                <span className={styles.burger}></span>
-            </button>
+                <button className={styles.button} onClick={() => setActive(!active)}>
+                    <span className={styles.burger}></span>
+                </button>
 
+            </div>
+                <ul className={cn({
+                    [styles.linkList]: true,
+                    [styles.linkListHidden]: !active
+                    })}
+                    >
+                    <li className={styles.linkItem}><Link href="/projects"><a className={styles.link}>Projects</a></Link></li>
+                    <li className={styles.linkItem}><Link href="/blog"><a className={styles.link}>Blog</a></Link></li>
+                    <li className={styles.linkItem}><Link href="/"><a className={styles.link}>About</a></Link></li>
+                </ul> 
         </div>
-            <ul className={cn({
-                [styles.linkList]: true,
-                [styles.linkListHidden]: !active
-                })}
-                >
-                <li className={styles.linkItem}><Link href="/projects"><a className={styles.link}>Projects</a></Link></li>
-                <li className={styles.linkItem}><Link href="/blog"><a className={styles.link}>Blog</a></Link></li>
-                <li className={styles.linkItem}><Link href="/"><a className={styles.link}>About</a></Link></li>
-            </ul> 
         </>       
     )
 }
