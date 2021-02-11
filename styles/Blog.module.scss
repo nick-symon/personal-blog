@@ -6,7 +6,12 @@
 }
 
 .listItem {
+    padding-bottom: 2rem;
     list-style: none;
+    margin-bottom: 1.5rem;
+    &:not(:last-child) {
+        border-bottom: 1px solid white;
+    }
 }
 
 .link {
