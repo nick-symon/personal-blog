@@ -79,6 +79,8 @@
 .link {
     position: relative;
     font-size: 2rem;
+    display: inline-block;
+    width: 100%;
 
     &Item {
         border-bottom: 1px solid blue;
