@@ -1,6 +1,19 @@
+@import 'variables';
+
 .mainHeader {
+    color: $heading-color;
     margin-bottom: 3.5rem;
     padding-bottom: 1rem;
     text-align: left;
-    border-bottom: 3px dotted white;
+    border-bottom: $heading-border;
+    position: relative;
+
+    &::after{
+        content: "";
+        position: absolute;
+        bottom: 2px;
+        display: block;
+        width: 100%;
+        border-bottom: $heading-border;
+    }
 }

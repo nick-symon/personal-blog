@@ -1,3 +1,5 @@
+@import 'variables';
+
 .grid {
   grid-column: 2/3;
   display: grid;
@@ -26,7 +28,7 @@
 .linkIcon {
   width: 3.3rem;
   height: 3.3rem;
-  fill: #0070f3;
+  fill: $link-color;
 }
 
 .linkContainer{
