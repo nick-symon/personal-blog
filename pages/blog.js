@@ -17,7 +17,7 @@ export default function BlogIndex({allPostsData}) {
     return(
         <Layout>
             <main className={styles.grid}>
-                <h1 className={utilStyles.mainHeader}>Blog Posts</h1>
+                <h1 className={utilStyles.mainHeader}>Posts</h1>
                 <ul>
                 {allPostsData.map(({id, title, date}) => (
                     <li className={styles.listItem} key={id}>

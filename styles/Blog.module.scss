@@ -3,7 +3,7 @@
     display: grid;
     justify-content: center;
     justify-self: center;
-    grid-template-columns: minmax(30rem, 50rem);
+    grid-template-columns: minmax(min-content, 90rem);
     padding-top: 3rem;
 }
 
