@@ -16,7 +16,7 @@ export async function getStaticProps() {
 export default function BlogIndex({allPostsData}) {
     return(
         <Layout>
-            <main className={styles.grid}>
+            <div className={styles.grid}>
                 <h1 className={utilStyles.mainHeader}>Posts</h1>
                 <ul>
                 {allPostsData.map(({id, title, date}) => (
@@ -28,7 +28,7 @@ export default function BlogIndex({allPostsData}) {
                     </li>
                 ))}
                 </ul>
-            </main>
+            </div>
         </Layout>
     )
 }

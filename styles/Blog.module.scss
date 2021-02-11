@@ -1,9 +1,5 @@
 .grid {
     grid-column: 2/3;
-    display: grid;
-    justify-content: center;
-    justify-self: center;
-    grid-template-columns: minmax(min-content, 90rem);
     padding-top: 3rem;
 }
 
@@ -15,4 +11,29 @@
     display: inline-block;
     font-size: 3rem;
     margin-bottom: .6rem;
+}
+
+.headContainer {
+    border-bottom: 3px dotted white;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.header {
+    margin-bottom: .5rem;
+}
+
+.date {
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+
+.contentContainer {
+    & * {
+        margin-bottom: 2rem;
+    }
+
+    & p {
+        line-height: 1.5;
+    }
 }

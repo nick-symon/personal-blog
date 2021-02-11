@@ -1,5 +1,5 @@
 import Layout from '../../components/Layout'
-import styles from '../../styles/BlogPost.module.scss'
+import styles from '../../styles/Blog.module.scss'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 
 export async function getStaticPaths() {
@@ -22,13 +22,13 @@ export async function getStaticProps({ params }) {
 export default function Blog({postData}) {
     return( 
     <Layout>
-    <main className={styles.grid}>
+    <div className={styles.grid}>
         <div className={styles.headContainer}>
           <h1 className={styles.header}>{postData.title}</h1>
           <p className={styles.date}>{postData.date}</p>
         </div>
         <div className={styles.contentContainer} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-    </main>
+    </div>
     </Layout>
     )
 }
