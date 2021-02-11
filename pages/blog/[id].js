@@ -23,10 +23,8 @@ export default function Blog({postData}) {
     return( 
     <Layout>
     <div className={styles.grid}>
-        <div className={styles.headContainer}>
-          <h1 className={styles.header}>{postData.title}</h1>
-          <p className={styles.date}>{postData.date}</p>
-        </div>
+        <h1 className={styles.header}>{postData.title}</h1>
+        <p className={styles.date}>{postData.date}</p>
         <div className={styles.contentContainer} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </div>
     </Layout>

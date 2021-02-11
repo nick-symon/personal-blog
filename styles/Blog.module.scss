@@ -1,3 +1,5 @@
+@import 'variables';
+
 .grid {
     grid-column: 2/3;
     padding-top: 3rem;
@@ -13,27 +15,26 @@
     margin-bottom: .6rem;
 }
 
-.headContainer {
-    border-bottom: 3px dotted white;
-    padding-bottom: 1rem;
-    margin-bottom: 2rem;
-}
-
 .header {
+    font-size: 3.5rem;
     margin-bottom: .5rem;
+    color: $heading-color
 }
 
 .date {
     font-weight: 100;
     font-size: 1.3rem;
+    color: $heading-color
 }
 
 .contentContainer {
+    margin-top: 1.5rem;
     & * {
         margin-bottom: 2rem;
     }
 
     & p {
-        line-height: 1.5;
+        font-size: 1.8rem;
+        line-height: 1.4;
     }
 }
