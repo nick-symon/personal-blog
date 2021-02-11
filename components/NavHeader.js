@@ -1,13 +1,14 @@
 import Link from 'next/link'
 import styles from './navheader.module.scss'
 import { useState, useEffect } from 'react'
+import { useRouter } from 'next/router'
 import cn from 'classnames' 
 
 export default function NavHeader() {
     const [active, setActive] = useState(false);
+    let router = useRouter()
 
     const handleOutsideClick = (e) => {
-        console.log(e.target.classList);
         if (
             active &&
             !e.target.classList.contains(styles.link) &&
@@ -17,6 +18,11 @@ export default function NavHeader() {
         ) {
             setActive(!active)
         }
+    }
+
+    function checkPath(e) {
+        const href = e.target.attributes.href.value; 
+        href === router.asPath && setActive(!active)
     }
 
     useEffect(()=> {
@@ -44,12 +50,19 @@ export default function NavHeader() {
                     [styles.linkListHidden]: !active
                     })}
                     >
-                    <li className={styles.linkItem}><Link href="/projects"><a className={styles.link}>Projects</a></Link></li>
-                    <li className={styles.linkItem}><Link href="/blog"><a className={styles.link}>Blog</a></Link></li>
-                    <li className={styles.linkItem}><Link href="/blog/about-me"><a className={styles.link}>About</a></Link></li>
+                    <li className={styles.linkItem}><Link href="/projects" passHref><a onClick={checkPath} className={styles.link}>Projects</a></Link></li>
+                    <li className={styles.linkItem}><Link href="/blog"><a onClick={checkPath} className={styles.link}>Blog</a></Link></li>
+                    <li className={styles.linkItem}><Link href="/blog/about-me"><a onClick={checkPath} className={styles.link}>About</a></Link></li>
                 </ul> 
         </div>
         </>       
     )
 }
 
+function NavLink ({href, children}) {
+    const router = useRouter()
+
+    if (router.pathname === href) {
+
+    }
+}

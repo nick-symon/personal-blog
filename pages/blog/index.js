@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import Layout from '../components/Layout'
-import styles from '../styles/Blog.module.scss'
-import utilStyles from '../styles/utils.module.scss'
-import { getSortedPostsData } from '../lib/posts'
+import Layout from '../../components/Layout'
+import styles from '../../styles/Blog.module.scss'
+import utilStyles from '../../styles/utils.module.scss'
+import { getSortedPostsData } from '../../lib/posts'
 
 export async function getStaticProps() {
     const allPostsData = getSortedPostsData()
