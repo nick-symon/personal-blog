@@ -7,17 +7,21 @@ After about a year and a half after starting on this journey of teaching myself 
 
 How did I get here? Well, I don’t have a computer science degree, nor did I attend a bootcamp. I’m 100% ‘self’ taught (which is kind of a misnomer because many people helped me tremendously along the way!).
 
-I wanted to write about my experience in the hopes that it might help (or even inspire) other folks who are considering, or are currently on, this self-taught route. With the rise of bootcamps, self-taught developers seem to be a rare breed nowadays; most of the people I spoke to for career advice weren’t able to name any colleagues or friends who had made a career switch into dev through this self taught route. 
+I wanted to write about my experience in the hopes that it might help (or even inspire) other folks who are considering, or are currently on, this self-taught route. With the rise of bootcamps, self-taught developers seem to be a rare breed nowadays; most of the people I spoke to for career advice weren’t able to name any colleagues or friends who had made a career switch into dev through this self taught route. Most importantly, I want to let people know that *it can be done!*
 
 This definitely isn’t a ‘how-to’ article where I tell you what you need to do step-by-step; rather, this is a series of observations and insights I’ve gathered after reflecting on what went right - and what went wrong - over the course of my self-taught journey. 
 
 Without further ado, let’s get into it!
+
+<iframe src="https://giphy.com/embed/HVr4gFHYIqeti" width="480" height="192" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ## Background - The Journey Begins
 
 When I finally decided to pursue software development in earnest, I promised to give myself enough time to really try it out for size to see if it was the right fit before fully committing. I didn’t want my preconceptions of what it meant to be a ‘software developer’, or any of the marketing thrown at me by bootcamps, to flavor my decision making. I wanted to really make sure that I enjoyed building software and that it would be a good fit for me as a profession.
 
 So give yourself some time and breathing room to just figure it out. Go through some basic tutorials, engage with the community, and most importantly **build something**. My thinking is that you definitely need to encounter some obstacles and see how you react before you can be sure that you’re ready to make the leap. Because however you make the transition, it will require a serious commitment, and you definitely don’t want to feel like you rushed into a big decision. Only you can decide when you’re ready.
+
+<iframe src="https://giphy.com/embed/3orieKajiv4hEbaybK" width="480" height="366" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ## Why I didn’t go to a bootcamp 
 
@@ -90,13 +94,13 @@ I began my learning journey in earnest with the free [Intro to Computer Science]
 
 Wow, quite a dramatic claim for a free online computer science course, no? Well, I sincerely believe that it’s true. This course set me up for success in many different ways. While I would recommend this course any day, there are so many resources out there that ultimately you should make your own decision based on your own needs. But I want to highlight some characteristics about this course that you should keep in mind when making this decision:
 
-- **Focus on the Fundamentals** The course was taught in Python, but it wasn’t a ‘Python’ course per se. The emphasis was on computer science fundamentals. There were many more advanced features of the Python language that weren’t covered in the course. It was laser focused on teaching the core concepts of programming in an accessible way.
+- **Focus on the Fundamentals.** The course was taught in Python, but it wasn’t a ‘Python’ course per se. The emphasis was on computer science fundamentals. There were many more advanced features of the Python language that weren’t covered in the course. It was laser focused on teaching the core concepts of programming in an accessible way.
 
-- **Problem Solving** The course spent a lot of time discussing how to approach problem solving as a developer. This was incredibly helpful, as I had tried out a different ‘Learn Python’ course and was quickly discouraged when I wasn’t able to complete the assessments. There is a way to think through and solve problems through programming that is universal and not language dependent, and I still utilize the lessons I learned in this area.
+- **Problem Solving.** The course spent a lot of time discussing how to approach problem solving as a developer. This was incredibly helpful, as I had tried out a different ‘Learn Python’ course and was quickly discouraged when I wasn’t able to complete the assessments. There is a way to think through and solve problems through programming that is universal and not language dependent, and I still utilize the lessons I learned in this area.
 
-- **Practice** The course had a lot of practice problems that progressed in difficulty at a nice rate -- not too hard, but not too easy. These practice problems really helped me retain this knowledge and kept me motivated throughout the course.
+- **Practice.** The course had a lot of practice problems that progressed in difficulty at a nice rate -- not too hard, but not too easy. These practice problems really helped me retain this knowledge and kept me motivated throughout the course.
 
-- **Context** Sprinkled throughout the course were nice little tidbits of contextual computer science info, like how a processor works, how a program is executed, what exactly is an information protocol like HTTP, etc. etc. This helped demystify for me how computers and the internet fundamentally worked, which was incredibly helpful.
+- **Context.** Sprinkled throughout the course were nice little tidbits of contextual computer science info, like how a processor works, how a program is executed, what exactly is an information protocol like HTTP, etc. etc. This helped demystify for me how computers and the internet fundamentally worked, which was incredibly helpful.
 
 - **Excitement!** Dave Evans, the professor who teaches the course, clearly has a love for computing. His enthusiasm is infectious, and it helped me through the many challenging parts of the course.
 
@@ -115,3 +119,5 @@ Two things I would highly recommend are [Getting Started with the Web](https://d
 ## To Be Continued...
 
 If you want to read about the rest of my story, follow me to [Part 2](https://nicksymon.dev/blog/my-self-taught-developer-journey-part-2)
+
+<iframe src="https://giphy.com/embed/3o6Mb3PGeR7EufOgYo" width="480" height="366" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>

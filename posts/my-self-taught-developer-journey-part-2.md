@@ -2,9 +2,7 @@
 title: 'My Self-taught Developer Journey: Part 2'
 date: '2020-05-02'
 ---
-
-Continued from [Part 1](https://nicksymon.dev/blog/my-self-taught-developer-journey-part-1)
-
+*Continued from [Part 1](https://nicksymon.dev/blog/my-self-taught-developer-journey-part-1)*
 ## Two Steps Forward, One Step Forward with Django; Or, the Importance of Balancing Theory & Practice
 
 So after finishing the Udemy course and poking around the MDN Web Docs, I was ready to finally start building stuff! Towards the end of the course I had gotten a bit antsy just doing practice problems and wanted to get my hands dirty writing some code.
@@ -22,6 +20,8 @@ Once I had finished that book, I revisited Django with much more confidence and 
 The point I want to make here is that I personally learn best by balancing theory and practice. I love burying my nose in an O’Reilly book, or reading the docs for a library or framework, but I also love writing software and building things. Eventually I will get bored of one, and want to do the other. If you choose to go the self-taught route, you will find the balance that works best for you.
 
 When I was first starting out, I saw a stack overflow post that said the best way to learn programming is to ditch the books and tutorials and just build something and figure it out as you go along. I completely disagree with this approach. I think that you do need to know the basics and understand the larger context of what you’re doing. Otherwise, you will just be copy-pasting stack overflow out of frustration to get something to work, without really knowing what you’re doing. And while that happens to everyone, if that’s ALL you’re doing, it’s not a good sign.  
+
+<iframe src="https://giphy.com/embed/xT5LMxAxpGSb5AZt8A" width="480" height="362" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ## Tools to Learn
 
@@ -65,6 +65,8 @@ I won’t go into the gory details of how I built and deployed Pod People, but I
 - **Get a domain name**.  Spend the money to get a real domain name -- it’s worth it! Using a generic heroku link or something like that just doesn’t have the kind of ‘wow’ factor that a memorable domain name will deliver.
 
 - **Don’t be afraid to refactor/start over**. This is what version control is for! I went through several significant changes throughout the life of Pod People, and I’m about to embark on another one (converting it to a rails app). The biggest, and most challenging, was when I converted the entire front-end to a React app. Even though you may feel like you’re taking a step backward, the process of making these significant changes to an existing app will be a learning opportunity in itself.
+
+<iframe src="https://giphy.com/embed/5e7IgAQL94d6ooCi43" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ## Roadmaps
 
@@ -121,3 +123,5 @@ Well I hope that these series of blog posts were helpful, informative, or amusin
 ## Bonus Tips - Touch Typing and Vim
 
 Seriously. Take the time to learn touch typing and Vim at some point. The investment in time you put into this will pay off tremendously in the long run. 
+
+<iframe src="https://giphy.com/embed/3orif8SZCC9OCqaHnO" width="480" height="368" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
