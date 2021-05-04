@@ -19,13 +19,13 @@ When I finally decided to pursue software development in earnest, I promised to 
 
 So give yourself some time and breathing room to just figure it out. Go through some basic tutorials, engage with the community, and most importantly **build something**. My thinking is that you definitely need to encounter some obstacles and see how you react before you can be sure that you’re ready to make the leap. Because however you make the transition, it will require a serious commitment, and you definitely don’t want to feel like you rushed into a big decision. Only you can decide when you’re ready.
 
-### Why I didn’t go to a bootcamp 
+## Why I didn’t go to a bootcamp 
 
 Over the course of my journey, I wrestled with whether I should go the bootcamp route. 
 
 Spoiler alert -- I ultimately did not attend a software bootcamp. Now, as I mentioned in the beginning, I don’t intend this post to be a ‘how-to’ article where I tell you exactly what to do. I don’t want to discourage anyone from attending a bootcamp, or talk smack about any specific bootcamp. Many of the devs I asked for advice throughout my journey went to a bootcamp and had a great experience. Clearly, there’s no one-size-fits-all path into software development. But I definitely do have advice from all the time I spent investigating bootcamps.
 
-**Talk directly to alumni**
+***Talk directly to alumni***
 
 This might be the most important takeaway. If you’re thinking about joining a bootcamp, find a few people who went there recently (i.e. graduated within the last 1-2 years max) and ask about their experience. Look on LinkedIn, or ask around the local tech community (meet-ups were especially helpful for me). And don’t just rely on alumni that the bootcamps set you up with directly, as that might result in selection bias. They have identified these individuals based on their “success” so their advice may not be as helpful as others.
 
@@ -33,7 +33,7 @@ In my opinion, this is the best way to get the inside scoop on a bootcamp you mi
 
 Remember, bootcamps may vary from campus to campus, and they can change significantly over a course of just a few years. So you want specific, timely info when you’re making a decision, and that means talking to someone who *recently* went to the *same campus* you’re considering.
 
-**Watch out for the shady ones…**
+***Watch out for the shady ones…***
 
 Ok, I *kind of* lied when I said I wouldn’t talk smack about any specific bootcamp. I won’t name them but...there are plenty of shady operators out there that will do whatever it takes to separate you from your money.
 
