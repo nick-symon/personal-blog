@@ -10,7 +10,7 @@ export default function Home() {
           <div className={styles.photo}></div>
           <div className={styles.textContainer}>
             <h1 className={styles.header}>Hi, I'm Nick!</h1>
-            <h3 className={styles.subHead}>I'm a Software Developer that loves Ruby and React.</h3>
+            <h3 className={styles.subHead}>I'm a Software Developer who loves Ruby and React.</h3>
             <br></br>
             <h3>Please check out my{' '} 
               <Link href="/projects">
